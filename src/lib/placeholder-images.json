@@ -1,3 +1,136 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Abstract background for hero section",
+      "imageUrl": "https://images.unsplash.com/photo-1579567761406-4684ee0c75b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWNoJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzY4MzE0NTg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech abstract"
+    },
+    {
+      "id": "gallery-1",
+      "description": "A person working on an AI-powered laptop in a modern office.",
+      "imageUrl": "https://images.unsplash.com/photo-1746286720852-4fa8618c4e5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxBSSUyMGxhcHRvcHxlbnwwfHx8fDE3Njg0MDc3NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI laptop"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Close-up of a high-end tablet displaying creative work.",
+      "imageUrl": "https://images.unsplash.com/photo-1605719124118-58056ae4ed2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0YWJsZXQlMjBjcmVhdGl2ZXxlbnwwfHx8fDE3Njg0MDc3NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tablet creative"
+    },
+    {
+      "id": "gallery-3",
+      "description": "A clean and organized work setup with a laptop, monitor, and accessories.",
+      "imageUrl": "https://images.unsplash.com/photo-1510519138101-570d1dca3d66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkZXNrJTIwc2V0dXB8ZW58MHx8fHwxNzY4NDA3NzQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "desk setup"
+    },
+    {
+      "id": "gallery-4",
+      "description": "A collection of modern tech accessories like a wireless keyboard and stylus.",
+      "imageUrl": "https://images.unsplash.com/photo-1693279504914-d08266ecbe66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0ZWNoJTIwYWNjZXNzb3JpZXN8ZW58MHx8fHwxNzY4NDA3NzQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech accessories"
+    },
+    {
+      "id": "gallery-5",
+      "description": "An AI PC with its internal components visible, glowing with blue light.",
+      "imageUrl": "https://images.unsplash.com/photo-1712245833905-5057a4245271?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMFBDfGVufDB8fHx8MTc2ODQwNzc0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI PC"
+    },
+    {
+      "id": "gallery-6",
+      "description": "A person using a stylus on a hybrid tablet for digital drawing.",
+      "imageUrl": "https://images.unsplash.com/photo-1572532350840-f682a3cf9dc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0YWJsZXQlMjBkcmF3aW5nfGVufDB8fHx8MTc2ODM4MTIyMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tablet drawing"
+    },
+    {
+      "id": "gallery-7",
+      "description": "A minimalist desk setup with a focus on ergonomics.",
+      "imageUrl": "https://images.unsplash.com/photo-1449247709967-d4461a6a6103?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtaW5pbWFsaXN0JTIwZGVza3xlbnwwfHx8fDE3NjgzMjc2OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minimalist desk"
+    },
+    {
+      "id": "gallery-8",
+      "description": "A modern mechanical keyboard with RGB lighting.",
+      "imageUrl": "https://images.unsplash.com/photo-1618586810102-aaa7049200c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtZWNoYW5pY2FsJTIwa2V5Ym9hcmR8ZW58MHx8fHwxNzY4MzkxMDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mechanical keyboard"
+    },
+    {
+      "id": "gallery-9",
+      "description": "A futuristic AI laptop with a holographic display concept.",
+      "imageUrl": "https://images.unsplash.com/photo-1667411425106-9e3aa26517c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmdXR1cmlzdGljJTIwbGFwdG9wfGVufDB8fHx8MTc2ODMyOTk1OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "futuristic laptop"
+    },
+    {
+      "id": "gallery-10",
+      "description": "A foldable tablet being used in multiple configurations.",
+      "imageUrl": "https://images.unsplash.com/photo-1624841971021-41e42d122f34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmb2xkYWJsZSUyMHRhYmxldHxlbnwwfHx8fDE3Njg0MDc3NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "foldable tablet"
+    },
+    {
+      "id": "gallery-11",
+      "description": "A developer's work setup with multiple monitors and lines of code.",
+      "imageUrl": "https://images.unsplash.com/photo-1631914730601-6295d106b459?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxkZXZlbG9wZXIlMjBzZXR1cHxlbnwwfHx8fDE3NjgzMjY0MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "developer setup"
+    },
+    {
+      "id": "gallery-12",
+      "description": "A high-precision stylus pen next to a tablet.",
+      "imageUrl": "https://images.unsplash.com/photo-1671097020305-775b696759ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHlsdXMlMjBwZW58ZW58MHx8fHwxNzY4NDA3NzQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stylus pen"
+    },
+    {
+      "id": "gallery-13",
+      "description": "Side view of a sleek, ultra-thin AI laptop.",
+      "imageUrl": "https://images.unsplash.com/photo-1763034179057-acad3a072568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0aGluJTIwbGFwdG9wfGVufDB8fHx8MTc2ODQwNzc0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "thin laptop"
+    },
+    {
+      "id": "gallery-14",
+      "description": "A cozy home office setup with a tablet and laptop.",
+      "imageUrl": "https://images.unsplash.com/photo-1600494603989-9650cf6ddd3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxob21lJTIwb2ZmaWNlfGVufDB8fHx8MTc2ODM3OTM2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "home office"
+    },
+    {
+      "id": "product-keyboard-1",
+      "description": "An ergonomic mechanical keyboard.",
+      "imageUrl": "https://images.unsplash.com/photo-1618586810102-aaa7049200c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxlcmdvbm9taWMlMjBrZXlib2FyZHxlbnwwfHx8fDE3NjgzNzI4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ergonomic keyboard"
+    },
+    {
+      "id": "product-stylus-1",
+      "description": "A precision stylus for digital artists.",
+      "imageUrl": "https://images.unsplash.com/photo-1626381961666-ea7ebcf56a6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkaWdpdGFsJTIwc3R5bHVzfGVufDB8fHx8MTc2ODQwNzc0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital stylus"
+    },
+    {
+      "id": "product-hub-1",
+      "description": "A multi-port USB-C hub.",
+      "imageUrl": "https://images.unsplash.com/photo-1760376789487-994070337c76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxVU0IlMjBodWJ8ZW58MHx8fHwxNzY4NDA3NzQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "USB hub"
+    },
+    {
+      "id": "product-case-1",
+      "description": "A protective magnetic case for a tablet.",
+      "imageUrl": "https://images.unsplash.com/photo-1628557451537-490a86f22970?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0YWJsZXQlMjBjYXNlfGVufDB8fHx8MTc2ODQwNzc0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tablet case"
+    },
+    {
+      "id": "product-keyboard-2",
+      "description": "A slim, portable bluetooth keyboard.",
+      "imageUrl": "https://images.unsplash.com/photo-1583418855574-dcb771a0c46b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwb3J0YWJsZSUyMGtleWJvYXJkfGVufDB8fHx8MTc2ODI4ODQ2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "portable keyboard"
+    },
+    {
+      "id": "product-stylus-2",
+      "description": "A simple stylus for note-taking.",
+      "imageUrl": "https://images.unsplash.com/photo-1710075554684-88f369e05e99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxub3RlJTIwc3R5bHVzfGVufDB8fHx8MTc2ODQwNzc0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "note stylus"
+    },
+    {
+      "id": "map-location",
+      "description": "A map showing a generic office location in a tech district.",
+      "imageUrl": "https://images.unsplash.com/photo-1446776899648-aa78eefe8ed0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaXR5JTIwbWFwfGVufDB8fHx8MTc2ODMwNzMwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city map"
+    }
+  ]
 }
