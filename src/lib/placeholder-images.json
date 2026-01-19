@@ -137,6 +137,12 @@
       "description": "A tablet with a connected keyboard and a stylus, ready for productivity.",
       "imageUrl": "https://cdn.shopify.com/s/files/1/0905/4096/6199/files/These_Accessories_Will_Level_Up_Your_REDMAGIC_Nova_Gaming_Tablet_Experience_1.jpg?v=1732183470",
       "imageHint": "tablet keyboard stylus"
+    },
+    {
+      "id": "guide-monitor",
+      "description": "An ultrawide monitor in a clean and productive desk setup.",
+      "imageUrl": "https://images.unsplash.com/photo-1624377759136-e41539263438?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx1bHRyYXdpZGUlMjBtb25pdG9yJTIwZGVza3xlbnwwfHx8fDE3MjEwNzMyMzB8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "ultrawide monitor"
     }
   ]
 }
