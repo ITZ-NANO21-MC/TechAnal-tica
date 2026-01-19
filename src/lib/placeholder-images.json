@@ -125,12 +125,6 @@
       "description": "A simple stylus for note-taking.",
       "imageUrl": "https://images.unsplash.com/photo-1710075554684-88f369e05e99?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxub3RlJTIwc3R5bHVzfGVufDB8fHx8MTc2ODQwNzc0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "note stylus"
-    },
-    {
-      "id": "map-location",
-      "description": "A map showing a generic office location in a tech district.",
-      "imageUrl": "https://images.unsplash.com/photo-1446776899648-aa78eefe8ed0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaXR5JTIwbWFwfGVufDB8fHx8MTc2ODMwNzMwNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "city map"
     }
   ]
 }

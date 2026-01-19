@@ -5,8 +5,6 @@ import { useForm } from 'react-hook-form';
 import * as z from 'zod';
 import { useToast } from '@/hooks/use-toast';
 import emailjs from '@emailjs/browser';
-import Image from 'next/image';
-import Link from 'next/link';
 
 import { Button } from '@/components/ui/button';
 import {
@@ -28,7 +26,7 @@ import {
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Mail, Phone, Clock } from 'lucide-react';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { InteractiveMap } from './interactive-map';
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -85,8 +83,6 @@ export function ContactSection() {
       });
     }
   }
-  
-  const mapImage = PlaceHolderImages.find(img => img.id === 'map-location');
 
   return (
     <div className="grid gap-12 md:grid-cols-2">
@@ -193,27 +189,7 @@ export function ContactSection() {
           </CardContent>
         </Card>
 
-        {mapImage && (
-            <Card className="overflow-hidden">
-                <CardHeader>
-                    <CardTitle>Nuestra Ubicación</CardTitle>
-                </CardHeader>
-                <CardContent className="p-0">
-                    <Link href="https://maps.google.com" target="_blank" className="block relative aspect-[16/9] group">
-                        <Image 
-                            src={mapImage.imageUrl} 
-                            alt={mapImage.description} 
-                            fill
-                            className="object-cover transition-transform duration-300 group-hover:scale-105"
-                            data-ai-hint={mapImage.imageHint}
-                        />
-                         <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                            <p className="text-white font-semibold">Ver en Google Maps</p>
-                        </div>
-                    </Link>
-                </CardContent>
-            </Card>
-        )}
+        <InteractiveMap />
       </div>
     </div>
   );
