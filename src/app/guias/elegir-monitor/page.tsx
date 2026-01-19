@@ -18,7 +18,7 @@ import {
 } from '@/components/ui/table';
 import { Badge } from '@/components/ui/badge';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
-import { Scaling, Ratio, PanelTop, UsbC } from 'lucide-react';
+import { Scaling, Ratio, PanelTop, Usb } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Cómo Elegir un Monitor para Productividad',
@@ -88,7 +88,7 @@ export default function GuidePage() {
                          <FeatureCard icon={PanelTop} title="Tecnología de Panel">
                            **IPS** es el rey para la mayoría: ofrece los mejores colores y ángulos de visión, ideal para diseño y uso general. **VA** ofrece un contraste superior (negros más profundos), bueno para ver contenido multimedia. **OLED** es la gama alta, con contraste infinito, pero puede ser propenso a "quemaduras" con elementos estáticos.
                         </FeatureCard>
-                         <FeatureCard icon={UsbC} title="Conectividad y Ergonomía">
+                         <FeatureCard icon={Usb} title="Conectividad y Ergonomía">
                            Un puerto **USB-C con Power Delivery** es un cambio de juego: un solo cable para vídeo, datos y para cargar tu portátil. No subestimes la ergonomía: busca soportes que permitan ajustar la altura, inclinación y rotación para una postura saludable.
                         </FeatureCard>
                     </div>
