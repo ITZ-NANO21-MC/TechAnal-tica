@@ -73,7 +73,7 @@ export default function GuidePage() {
                 <section>
                     <h2 className="text-3xl font-bold mb-4">La Gran Diferencia: El NPU</h2>
                     <p className="text-muted-foreground text-lg mb-6">
-                        El término "AI PC" (o PC con Copilot+) no es solo marketing. La diferencia fundamental reside en un nuevo componente de hardware: la **Unidad de Procesamiento Neuronal (NPU)**. Piensa en ella como un cerebro secundario, diseñado exclusivamente para ejecutar tareas de inteligencia artificial de manera ultraeficiente.
+                        El término "AI PC" (o PC con Copilot+) no es solo marketing. La diferencia fundamental reside en un nuevo componente de hardware: la "Unidad de Procesamiento Neuronal (NPU)". Piensa en ella como un cerebro secundario, diseñado exclusivamente para ejecutar tareas de inteligencia artificial de manera ultraeficiente.
                     </p>
                     <div className="grid md:grid-cols-2 gap-6">
                          <Card className="bg-muted/40">
@@ -161,9 +161,9 @@ export default function GuidePage() {
                     <Alert>
                         <AlertTitle className="font-bold">Conclusión: ¿Cuál Comprar?</AlertTitle>
                         <AlertDescription className="mt-2">
-                           Si planeas comprar un portátil de gama media o alta a partir de finales de 2024 y quieres que tu inversión dure, un **AI PC es la elección lógica y preparada para el futuro**. Las ventajas en rendimiento, privacidad y la nueva ola de software exclusivo que aprovechará la NPU lo convierten en el nuevo estándar.
+                           Si planeas comprar un portátil de gama media o alta a partir de finales de 2024 y quieres que tu inversión dure, un "AI PC es la elección lógica y preparada para el futuro". Las ventajas en rendimiento, privacidad y la nueva ola de software exclusivo que aprovechará la NPU lo convierten en el nuevo estándar.
                            <br/><br/>
-                           Un **portátil tradicional** seguirá siendo una opción viable para tareas básicas o si tienes un presupuesto muy limitado, pero estarás renunciando a la principal innovación en computación personal de la década.
+                           Un "portátil tradicional" seguirá siendo una opción viable para tareas básicas o si tienes un presupuesto muy limitado, pero estarás renunciando a la principal innovación en computación personal de la década.
                         </AlertDescription>
                     </Alert>
                 </section>
