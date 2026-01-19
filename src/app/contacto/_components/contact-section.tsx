@@ -4,7 +4,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import * as z from 'zod';
 import { useToast } from '@/hooks/use-toast';
-import { submitContactForm } from '../actions';
+import emailjs from '@emailjs/browser';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -56,19 +56,32 @@ export function ContactSection() {
   });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    const result = await submitContactForm(values);
+    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
-    if (result.success) {
+    if (!serviceId || !templateId || !publicKey) {
+      toast({
+        variant: 'destructive',
+        title: 'Error de configuración',
+        description: 'El servicio de email no está configurado. Por favor, contacta al administrador.',
+      });
+      return;
+    }
+
+    try {
+      await emailjs.send(serviceId, templateId, values, publicKey);
       toast({
         title: '¡Mensaje Enviado!',
         description: 'Gracias por contactarnos. Te responderemos pronto.',
       });
       form.reset();
-    } else {
+    } catch (error) {
+      console.error('Error al enviar el email:', error);
       toast({
         variant: 'destructive',
         title: 'Error al enviar',
-        description: result.message || 'Hubo un problema al enviar tu mensaje. Inténtalo de nuevo.',
+        description: 'Hubo un problema al enviar tu mensaje. Inténtalo de nuevo.',
       });
     }
   }
