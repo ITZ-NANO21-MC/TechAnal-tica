@@ -18,7 +18,7 @@ import {
 } from '@/components/ui/table';
 import { Badge } from '@/components/ui/badge';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
-import { Scaling, AspectRatio, PanelTop, UsbC } from 'lucide-react';
+import { Scaling, Ratio, PanelTop, UsbC } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Cómo Elegir un Monitor para Productividad',
@@ -82,7 +82,7 @@ export default function GuidePage() {
                         <FeatureCard icon={Scaling} title="Resolución y Nitidez">
                            La resolución determina la claridad del texto y las imágenes. Para 2026, un monitor **QHD (1440p)** es un buen punto de partida para 27". Si trabajas con mucho texto o gráficos, saltar a **4K (2160p)** ofrece una nitidez excepcional, similar a una pantalla Retina.
                         </FeatureCard>
-                        <FeatureCard icon={AspectRatio} title="Tamaño y Relación de Aspecto">
+                        <FeatureCard icon={Ratio} title="Tamaño y Relación de Aspecto">
                            Un monitor de **27"** es el estándar de oro. Para una multitarea inmersiva, los **Ultrawide (21:9)** de 34" son fantásticos, ya que equivalen a dos monitores sin el bisel en medio. Los **Super Ultrawide (32:9)** llevan esto al extremo, ideales para finanzas o edición de vídeo.
                         </FeatureCard>
                          <FeatureCard icon={PanelTop} title="Tecnología de Panel">
