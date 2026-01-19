@@ -1,13 +1,43 @@
 'use client';
+
+import { useEffect, useRef } from 'react';
+import { useFormState, useFormStatus } from 'react-dom';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { useToast } from '@/hooks/use-toast';
+import { subscribeToNewsletter } from './newsletter-actions';
+
+function SubmitButton() {
+  const { pending } = useFormStatus();
+  return (
+    <Button type="submit" disabled={pending}>
+      {pending ? 'Suscribiendo...' : 'Suscribirse'}
+    </Button>
+  );
+}
 
 export function Newsletter() {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    // Newsletter logic would go here
-    console.log('Newsletter signup');
-  };
+  const [state, formAction] = useFormState(subscribeToNewsletter, null);
+  const { toast } = useToast();
+  const formRef = useRef<HTMLFormElement>(null);
+
+  useEffect(() => {
+    if (!state) return;
+
+    if (state.status === 'success') {
+      toast({
+        title: '¡Suscrito!',
+        description: state.message,
+      });
+      formRef.current?.reset();
+    } else if (state.status === 'error') {
+      toast({
+        variant: 'destructive',
+        title: 'Error',
+        description: state.message,
+      });
+    }
+  }, [state, toast]);
 
   return (
     <section id="newsletter" className="w-full py-12 md:py-24 lg:py-32 bg-muted/40">
@@ -22,14 +52,15 @@ export function Newsletter() {
           </p>
         </div>
         <div className="mx-auto w-full max-w-sm">
-          <form className="flex space-x-2" onSubmit={handleSubmit}>
+          <form ref={formRef} className="flex space-x-2" action={formAction}>
             <Input
               type="email"
+              name="email"
               placeholder="Ingresa tu email"
               className="max-w-lg flex-1"
               required
             />
-            <Button type="submit">Suscribirse</Button>
+            <SubmitButton />
           </form>
         </div>
       </div>
