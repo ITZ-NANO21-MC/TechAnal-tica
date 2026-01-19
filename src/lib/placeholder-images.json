@@ -143,6 +143,12 @@
       "description": "An ultrawide monitor in a clean and productive desk setup.",
       "imageUrl": "https://dimercom.mx/wp-content/uploads/2025/07/segundomonitor.webp",
       "imageHint": "dual monitor"
+    },
+    {
+      "id": "guide-windows-tablet",
+      "description": "A person using a Windows tablet with a stylus, showcasing productivity.",
+      "imageUrl": "https://images.unsplash.com/photo-1628191137573-dee7effa7761?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdXJmYWNlJTIwcHJvfGVufDB8fHx8MTc2ODQxMTk3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "windows tablet"
     }
   ]
 }
