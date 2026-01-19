@@ -34,6 +34,12 @@ const nextConfig: NextConfig = {
         hostname: 'acf.geeknetic.es',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.shopify.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
