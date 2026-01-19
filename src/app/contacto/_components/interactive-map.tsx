@@ -7,7 +7,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 
-const initialCoords = { longitude: -3.70379, latitude: 40.416775, zoom: 13 };
+const initialCoords = { longitude: -69.69354475102767, latitude: 11.40450113494431, zoom: 13 };
 // This HSL value corresponds to the primary color in globals.css
 const primaryColor = 'hsl(222 83% 54%)';
 
