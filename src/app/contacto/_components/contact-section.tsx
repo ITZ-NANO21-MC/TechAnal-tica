@@ -176,11 +176,11 @@ export function ContactSection() {
           <CardContent className="space-y-4">
             <div className="flex items-center gap-4">
               <Mail className="h-5 w-5 text-muted-foreground" />
-              <span className="text-muted-foreground">contacto@techanalitica.com</span>
+              <span className="text-muted-foreground">sistemaia11@gmail.com</span>
             </div>
             <div className="flex items-center gap-4">
               <Phone className="h-5 w-5 text-muted-foreground" />
-              <span className="text-muted-foreground">+1 (234) 567-890</span>
+              <span className="text-muted-foreground">+58 (424) 668-4134</span>
             </div>
             <div className="flex items-center gap-4">
               <Clock className="h-5 w-5 text-muted-foreground" />

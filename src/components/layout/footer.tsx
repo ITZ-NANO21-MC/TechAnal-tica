@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { BarChart3, Twitter, Youtube, Instagram } from 'lucide-react';
+import { BarChart3, Twitter, Youtube, Instagram, Facebook} from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export function Footer() {
@@ -19,19 +19,19 @@ export function Footer() {
         </div>
         <div className="flex items-center gap-2">
           <Button variant="ghost" size="icon" asChild>
-            <Link href="#" target="_blank">
-              <Twitter className="h-4 w-4" />
-              <span className="sr-only">Twitter</span>
+            <Link href="https://www.facebook.com/profile.php?id=61574043867042" target="_blank">
+              <Facebook className="h-4 w-4" />
+              <span className="sr-only">Facebook</span>
             </Link>
           </Button>
           <Button variant="ghost" size="icon" asChild>
-            <Link href="#" target="_blank">
+            <Link href="https://www.youtube.com/@SYNAI-k2p" target="_blank">
               <Youtube className="h-4 w-4" />
               <span className="sr-only">YouTube</span>
             </Link>
           </Button>
           <Button variant="ghost" size="icon" asChild>
-            <Link href="#" target="_blank">
+            <Link href="https://www.instagram.com/synai.ve?igsh=ZGUzMzM3NWJiOQ==" target="_blank">
               <Instagram className="h-4 w-4" />
               <span className="sr-only">Instagram</span>
             </Link>

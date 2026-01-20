@@ -2,7 +2,7 @@
 
 import {
   MessageCircle,
-  Twitter,
+  Facebook,
   Youtube,
   Instagram,
   Share2,
@@ -27,19 +27,19 @@ export function FloatingButtons() {
         </DropdownMenuTrigger>
         <DropdownMenuContent side="top" align="center" className="mb-2">
           <DropdownMenuItem asChild>
-            <Link href="#" target="_blank" className="flex items-center gap-2">
-              <Twitter className="h-4 w-4" />
-              <span>Twitter</span>
+            <Link href="https://www.facebook.com/profile.php?id=61574043867042" target="_blank" className="flex items-center gap-2">
+              <Facebook className="h-4 w-4" />
+              <span>Facebook</span>
             </Link>
           </DropdownMenuItem>
           <DropdownMenuItem asChild>
-            <Link href="#" target="_blank" className="flex items-center gap-2">
+            <Link href="https://www.youtube.com/@SYNAI-k2p" target="_blank" className="flex items-center gap-2">
               <Youtube className="h-4 w-4" />
               <span>YouTube</span>
             </Link>
           </DropdownMenuItem>
           <DropdownMenuItem asChild>
-            <Link href="#" target="_blank" className="flex items-center gap-2">
+            <Link href="https://www.instagram.com/synai.ve?igsh=ZGUzMzM3NWJiOQ==" target="_blank" className="flex items-center gap-2">
               <Instagram className="h-4 w-4" />
               <span>Instagram</span>
             </Link>
@@ -52,7 +52,7 @@ export function FloatingButtons() {
         className="rounded-full h-14 w-14 bg-green-500 text-white hover:bg-green-600 shadow-lg"
         asChild
       >
-        <Link href="https://wa.me/1234567890" target="_blank">
+        <Link href="https://wa.me/+584246684134" target="_blank">
           <MessageCircle className="h-7 w-7" />
           <span className="sr-only">WhatsApp</span>
         </Link>

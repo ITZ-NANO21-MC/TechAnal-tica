@@ -135,9 +135,9 @@ export default function GuidePage() {
                     <Alert>
                         <AlertTitle className="font-bold">Conclusión: ¿Para Quién es una Tablet con Windows?</AlertTitle>
                         <AlertDescription className="mt-2">
-                           <p className="mb-2">Una tablet con Windows **es ideal para** el profesional o estudiante que **necesita ejecutar un software de escritorio específico** que no está disponible en iPadOS o Android. Es un reemplazo de portátil viable si valoras la versatilidad de un 2-en-1 y tu flujo de trabajo depende de esas aplicaciones de PC.</p>
+                           <p className="mb-2">Una tablet con Windows "es ideal para" el profesional o estudiante que "necesita ejecutar un software de escritorio específico" que no está disponible en iPadOS o Android. Es un reemplazo de portátil viable si valoras la versatilidad de un 2-en-1 y tu flujo de trabajo depende de esas aplicaciones de PC.</p>
                            
-                           <p>Si tu uso principal es el consumo de medios, navegación web, redes sociales y apps creativas optimizadas para el tacto, una **tablet tradicional como un iPad o una Galaxy Tab probablemente te ofrecerá una experiencia más pulida y agradable**.</p>
+                           <p>Si tu uso principal es el consumo de medios, navegación web, redes sociales y apps creativas optimizadas para el tacto, una "tablet tradicional como un iPad o una Galaxy Tab probablemente te ofrecerá una experiencia más pulida y agradable".</p>
                         </AlertDescription>
                     </Alert>
                 </section>

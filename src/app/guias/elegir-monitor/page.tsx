@@ -80,16 +80,16 @@ export default function GuidePage() {
                     <h2 className="text-3xl font-bold mb-6">Factores Clave a Considerar</h2>
                     <div className="grid gap-6 md:grid-cols-1">
                         <FeatureCard icon={Scaling} title="Resolución y Nitidez">
-                           La resolución determina la claridad del texto y las imágenes. Para 2026, un monitor **QHD (1440p)** es un buen punto de partida para 27". Si trabajas con mucho texto o gráficos, saltar a **4K (2160p)** ofrece una nitidez excepcional, similar a una pantalla Retina.
+                           La resolución determina la claridad del texto y las imágenes. Para 2026, un monitor "QHD (1440p)" es un buen punto de partida. Si trabajas con mucho texto o gráficos, saltar a "4K (2160p)" ofrece una nitidez excepcional, similar a una pantalla Retina.
                         </FeatureCard>
                         <FeatureCard icon={Ratio} title="Tamaño y Relación de Aspecto">
-                           Un monitor de **27"** es el estándar de oro. Para una multitarea inmersiva, los **Ultrawide (21:9)** de 34" son fantásticos, ya que equivalen a dos monitores sin el bisel en medio. Los **Super Ultrawide (32:9)** llevan esto al extremo, ideales para finanzas o edición de vídeo.
+                           Un monitor de "27" es el estándar de oro. Para una multitarea inmersiva, los "Ultrawide (21:9)" de 34, son fantásticos, ya que equivalen a dos monitores sin el bisel en medio. Los "Super Ultrawide (32:9)" llevan esto al extremo, ideales para finanzas o edición de vídeo.
                         </FeatureCard>
                          <FeatureCard icon={PanelTop} title="Tecnología de Panel">
-                           **IPS** es el rey para la mayoría: ofrece los mejores colores y ángulos de visión, ideal para diseño y uso general. **VA** ofrece un contraste superior (negros más profundos), bueno para ver contenido multimedia. **OLED** es la gama alta, con contraste infinito, pero puede ser propenso a "quemaduras" con elementos estáticos.
+                           "IPS" es el rey para la mayoría: ofrece los mejores colores y ángulos de visión, ideal para diseño y uso general. "VA" ofrece un contraste superior (negros más profundos), bueno para ver contenido multimedia. "OLED" es la gama alta, con contraste infinito, pero puede ser propenso a "quemaduras" con elementos estáticos.
                         </FeatureCard>
                          <FeatureCard icon={Usb} title="Conectividad y Ergonomía">
-                           Un puerto **USB-C con Power Delivery** es un cambio de juego: un solo cable para vídeo, datos y para cargar tu portátil. No subestimes la ergonomía: busca soportes que permitan ajustar la altura, inclinación y rotación para una postura saludable.
+                           Un puerto "USB-C con Power Delivery" es un cambio de juego: un solo cable para vídeo, datos y para cargar tu portátil. No subestimes la ergonomía: busca soportes que permitan ajustar la altura, inclinación y rotación para una postura saludable.
                         </FeatureCard>
                     </div>
                 </section>
@@ -136,7 +136,7 @@ export default function GuidePage() {
                         <AlertTitle className="font-bold">Conclusión: La Inversión que Más Impacta</AlertTitle>
                         <AlertDescription className="mt-2">
                            <p className="mb-2">Después de tu silla, el monitor es el componente que más afecta tu comodidad y productividad diaria. No escatimes aquí. </p>
-                           <p>Para la mayoría de los profesionales en 2026, un **monitor IPS Ultrawide de 34" con resolución QHD y conectividad USB-C** representa el punto dulce perfecto entre precio, funcionalidad y preparación para el futuro. Si el presupuesto lo permite, saltar a 4K en un formato tradicional de 27" o 32" es una mejora fantástica para la nitidez.</p>
+                           <p>Para la mayoría de los profesionales en 2026, un "monitor IPS Ultrawide de 34" con resolución QHD y conectividad USB-C" representa el punto dulce perfecto entre precio, funcionalidad y preparación para el futuro. Si el presupuesto lo permite, saltar a 4K en un formato tradicional de 27" o 32" es una mejora fantástica para la nitidez.</p>
                         </AlertDescription>
                     </Alert>
                 </section>
