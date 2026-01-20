@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   authors: [{ name: 'TechAnalítica' }],
   creator: 'TechAnalítica',
   publisher: 'TechAnalítica',
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export const viewport: Viewport = {
