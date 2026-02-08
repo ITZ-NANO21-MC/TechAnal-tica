@@ -32,45 +32,36 @@ Desde la raíz del proyecto, ejecuta el siguiente comando para instalar todas la
 npm install
 ```
 
-### 3. Configurar Variables de Entorno
+### 3. Configurar Variables de Envío
 
-El proyecto necesita algunas variables de entorno para funcionar correctamente, especialmente para los servicios de terceros.
+El proyecto necesita algunas variables de entorno para funcionar correctamente.
 
 1.  Crea una copia del archivo `.env.example` y renómbrala a `.env.local`:
-
     ```bash
     cp .env.example .env.local
     ```
-
-2.  Abre el archivo `.env.local` y rellena los valores correspondientes.
-
-    ```env
-    # URL pública del sitio (para sitemap y robots.txt)
-    NEXT_PUBLIC_SITE_URL=http://localhost:9002
-
-    # Claves para el servicio de envío de email (Formulario de Contacto)
-    NEXT_PUBLIC_EMAILJS_SERVICE_ID=TU_SERVICE_ID
-    NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=TU_TEMPLATE_ID
-    NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=TU_PUBLIC_KEY
-
-    # API Key para el mapa interactivo (Página de Contacto)
-    NEXT_PUBLIC_GEOAPIFY_API_KEY=TU_API_KEY_GEOAPIFY
-
-    # Claves para la suscripción a la newsletter (Mailchimp)
-    MAILCHIMP_API_KEY=TU_API_KEY_MAILCHIMP
-    MAILCHIMP_AUDIENCE_ID=TU_AUDIENCE_ID
-    MAILCHIMP_SERVER_PREFIX=TU_SERVER_PREFIX
-    ```
+2.  Abre el archivo `.env.local` y rellena los valores correspondientes. Estos valores se obtienen de EmailJS, Geoapify y Mailchimp.
 
 ### 4. Ejecutar el Servidor de Desarrollo
-
-Una vez instaladas las dependencias y configuradas las variables de entorno, puedes iniciar el servidor de desarrollo:
 
 ```bash
 npm run dev
 ```
 
 Abre [http://localhost:9002](http://localhost:9002) en tu navegador para ver la aplicación en funcionamiento.
+
+---
+
+## 🛠️ Solución de Problemas con Git
+
+### Error: Invalid username or token
+Si recibes este error al hacer `git push`, recuerda que GitHub requiere un **Personal Access Token (PAT)** en lugar de tu contraseña habitual.
+
+1. Genera un token en [GitHub Tokens](https://github.com/settings/tokens).
+2. Actualiza tu URL de remoto con el token:
+   ```bash
+   git remote set-url origin https://<TU_TOKEN>@github.com/ITZ-NANO21-MC/TechAnal-tica.git
+   ```
 
 ---
 
