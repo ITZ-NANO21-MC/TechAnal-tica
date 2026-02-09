@@ -32,9 +32,9 @@ Desde la raíz del proyecto, ejecuta el siguiente comando para instalar todas la
 npm install
 ```
 
-### 3. Configurar Variables de Envío
+### 3. Configurar Variables de Entorno
 
-El proyecto necesita algunas variables de entorno para funcionar correctamente.
+El proyecto necesita variables de entorno para funcionar.
 
 1.  Crea una copia del archivo `.env.example` y renómbrala a `.env.local`:
     ```bash
@@ -52,25 +52,25 @@ Abre [http://localhost:9002](http://localhost:9002) en tu navegador para ver la 
 
 ---
 
-## 🛠️ Solución de Problemas con Git
+## 🛠️ Solución de Problemas con Git (Autenticación)
 
-### Error: Invalid username or token
-Si recibes este error al hacer `git push`, recuerda que GitHub requiere un **Personal Access Token (PAT)** en lugar de tu contraseña habitual.
+GitHub requiere un **Personal Access Token (PAT)** para las operaciones de `push`. Si recibes un error de "Invalid username or token":
 
-1. Genera un token en [GitHub Tokens](https://github.com/settings/tokens).
-2. Actualiza tu URL de remoto con el token:
+1. **Genera un Token:** Ve a [GitHub Settings > Developer Settings > Tokens (classic)](https://github.com/settings/tokens).
+2. **Permisos:** Asegúrate de marcar la casilla `repo`.
+3. **Configura la URL remota:** Ejecuta el siguiente comando en tu terminal reemplazando `<TU_TOKEN>` con el token generado:
    ```bash
    git remote set-url origin https://<TU_TOKEN>@github.com/ITZ-NANO21-MC/TechAnal-tica.git
    ```
+4. **Seguridad:** ¡Nunca compartas tu token públicamente ni lo subas al código!
 
 ---
 
 ## ✨ Características Principales
 
-- **Página de Inicio:** Presentación del sitio con guías destacadas.
-- **Guías de Compra:** Artículos detallados sobre diferentes categorías de productos tecnológicos.
-- **Galería:** Colección visual de dispositivos y setups.
-- **Catálogo:** Lista de productos recomendados con filtros y enlaces de afiliados.
-- **Contacto:** Formulario de contacto funcional y mapa interactivo.
-- **Newsletter:** Suscripción a través de Mailchimp.
-- **Modo Claro/Oscuro:** Soporte para temas claro y oscuro.
+- **Análisis de AI PCs:** Comparativas de rendimiento local vs nube.
+- **Guías de Tablets:** Análisis de productividad en iPad, Android y Windows.
+- **Catálogo de Accesorios:** Productos recomendados con filtros.
+- **Newsletter Dinámica:** Suscripción conectada a Mailchimp.
+- **Formulario de Contacto:** Envío directo mediante EmailJS.
+- **Mapa Interactivo:** Ubicación del negocio mediante MapLibre y Geoapify.
