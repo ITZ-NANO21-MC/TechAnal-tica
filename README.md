@@ -50,22 +50,6 @@ npm run dev
 
 Abre [http://localhost:9002](http://localhost:9002) en tu navegador para ver la aplicación en funcionamiento.
 
----
-
-## 🛠️ Solución de Problemas con Git (Autenticación)
-
-GitHub requiere un **Personal Access Token (PAT)** para las operaciones de `push`. Si recibes un error de "Invalid username or token":
-
-1. **Genera un Token:** Ve a [GitHub Settings > Developer Settings > Tokens (classic)](https://github.com/settings/tokens).
-2. **Permisos:** Asegúrate de marcar la casilla `repo`.
-3. **Configura la URL remota:** Ejecuta el siguiente comando en tu terminal reemplazando `<TU_TOKEN>` con el token generado:
-   ```bash
-   git remote set-url origin https://<TU_TOKEN>@github.com/ITZ-NANO21-MC/TechAnal-tica.git
-   ```
-4. **Seguridad:** ¡Nunca compartas tu token públicamente ni lo subas al código!
-
----
-
 ## ✨ Características Principales
 
 - **Análisis de AI PCs:** Comparativas de rendimiento local vs nube.

@@ -52,7 +52,7 @@ export async function subscribeToNewsletter(
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `api_key ${mailchimpApiKey}`,
+          Authorization: `apikey ${mailchimpApiKey}`,
         },
         body: JSON.stringify(data),
       }
@@ -64,13 +64,13 @@ export async function subscribeToNewsletter(
         status: 'success',
       };
     }
-    
+
     const errorData = await response.json();
     if (response.status === 400 && errorData.title === 'Member Exists') {
-        return {
-            message: 'Este email ya está suscrito. ¡Gracias!',
-            status: 'success', // Treat as success for the user
-        }
+      return {
+        message: 'Este email ya está suscrito. ¡Gracias!',
+        status: 'success', // Treat as success for the user
+      }
     }
 
     console.error('Mailchimp API error:', errorData);
