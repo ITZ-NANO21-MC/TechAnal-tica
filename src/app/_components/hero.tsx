@@ -26,23 +26,23 @@ export function Hero() {
 
   return (
     <section className="relative w-full py-20 md:py-32 lg:py-40 overflow-hidden">
-        {heroBgImage && (
-             <Image
-                src={heroBgImage.imageUrl}
-                alt={heroBgImage.description}
-                fill
-                className="object-cover z-0"
-                priority
-                data-ai-hint={heroBgImage.imageHint}
-            />
-        )}
-        <div className="absolute inset-0 bg-background/80 backdrop-blur-sm"></div>
+      {heroBgImage && (
+        <Image
+          src={heroBgImage.imageUrl}
+          alt={heroBgImage.description}
+          fill
+          className="object-cover z-0"
+          priority
+          data-ai-hint={heroBgImage.imageHint}
+        />
+      )}
+      <div className="absolute inset-0 bg-background/80 backdrop-blur-sm"></div>
 
       <div className="container relative z-10 px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:gap-16">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-4">
-              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-foreground to-muted-foreground">
+              <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-foreground to-muted-foreground pb-1">
                 Decisiones Tecnológicas Inteligentes para 2026
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
@@ -61,8 +61,8 @@ export function Hero() {
           </div>
           <div className="flex items-center justify-center">
             <div className="grid grid-cols-2 gap-8 rounded-lg border bg-card/80 p-8 shadow-lg w-full max-w-md">
-                <StatItem value={50} label="Dispositivos Analizados" />
-                <StatItem value={80} label="% Tasa de Ayuda" />
+              <StatItem value={50} label="Dispositivos Analizados" />
+              <StatItem value={80} label="% Tasa de Ayuda" />
             </div>
           </div>
         </div>
